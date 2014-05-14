@@ -39,7 +39,7 @@ window.fbAsyncInit = function(){
             results.append('<tr><td>'+resp.data[i].id+'</td><td>'+resp.data[i].name+'</td></tr>');
           }
         }
-        results.after('<div class="hw4-complete alert alert-info"> v 完� </div>');
+        results.after('<div class="hw4-complete alert alert-info"> 掃描完成</div>');
       });
     }, {scope: 'user_groups'});
 
